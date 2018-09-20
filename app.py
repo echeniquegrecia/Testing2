@@ -11,6 +11,10 @@ def hello_world():
 def testing1():
     return 'testing1'
 
+@app.route('/testing2')
+def testing2():
+    return 'testing2'
+
 
 if __name__ == '__main__':
     app.run()

@@ -8,4 +8,8 @@ def test_testing1():
     total = app.testing1()
     assert total == 'testing1'
 
+def test_testing2():
+    total = app.testing2()
+    assert total == 'testing2'
+
 
