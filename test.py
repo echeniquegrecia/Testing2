@@ -20,4 +20,7 @@ def test_testing4():
     total = app.testing4()
     assert total == 'testing4'
 
+def test_testing5():
+    total = app.testing5()
+    assert total == 'testing5'
 

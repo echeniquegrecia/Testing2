@@ -23,6 +23,10 @@ def testing3():
 def testing4():
     return 'testing4'
 
+@app.route('/testing5')
+def testing5():
+    return 'testing5'
+
 
 
 if __name__ == '__main__':
