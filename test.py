@@ -1,5 +1,7 @@
-def func(x):
-    return x + 1
+import app
 
-def test_answer():
-    assert func(3) == 4
+def test_hello_world():
+    total = app.hello_world()
+    assert total == 'updating again 22'
+
+
