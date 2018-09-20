@@ -15,6 +15,10 @@ def testing1():
 def testing2():
     return 'testing2'
 
+@app.route('/testing3')
+def testing3():
+    return 'testing3'
+
 
 if __name__ == '__main__':
     app.run()
